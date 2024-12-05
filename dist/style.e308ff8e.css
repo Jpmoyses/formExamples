@@ -1,0 +1,51 @@
+:root{
+  --bg-color: #17153B;
+  --btn-bg-color: #433D8B;
+  --font-color: #C8ACD6;
+
+}
+
+.flexBase{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50vw;
+}
+
+body{
+    background-color: var(--bg-color);
+    height: 100vh;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 1.4rem;
+    color: var(--font-color);
+}
+
+input{
+    margin: 0.4rem;
+}
+
+button{
+    color: var(--font-color);
+    background-color: var(--bg-color);
+    border: 3px solid var(--font-color);
+    border-radius: 11px;
+    padding: 0.4rem;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+button:hover{
+    color: var(--bg-color);
+    background-color: var(--font-color);
+}
+
+*{
+    margin: 0.6rem;
+}
+
+/*# sourceMappingURL=/style.e308ff8e.css.map */
